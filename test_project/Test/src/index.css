@@ -1,3 +1,33 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+
+.bg-white {
+  background-color: #FFFFFF;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem; /* Adjust the value as needed */
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.p-6 {
+  padding: 1.5rem; /* Adjust the value as needed */
+}
+
+
+.bg-gray-200 {
+  background-color: #E2E8F0; /* Adjust the color as needed */
+}
+
+.bg-green-600 {
+  background-color: #057A55; /* Adjust the color as needed */
+}
+
+.rounded-lg {
+  border-radius: 0.5rem; /* Adjust the value as needed */
+}
