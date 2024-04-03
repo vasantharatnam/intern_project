@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaStar } from 'react-icons/fa';
 
-function CompletionPage() {
+function CompletionPage({setCurrentPage , currentPage}) {
     return (
         <div className="bg-white p-4">
           <div className="flex items-center justify-center mb-6">
@@ -23,7 +23,7 @@ function CompletionPage() {
             world problem solving situations."
           </p>
           <p className="text-sm text-gray-600 mb-6">— Jacob S.</p>
-          <button className="bg-gray-800 text-white px-4 py-2 rounded-md">Continue</button>
+          <button  onClick = {setCurrentPage(currentPage+1)}className="bg-gray-800 text-white px-4 py-2 rounded-md">Continue</button>
         </div>
       );
     };

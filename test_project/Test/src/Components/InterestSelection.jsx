@@ -8,9 +8,9 @@ import { FaLightbulb } from 'react-icons/fa';
 
 function InterestSelection({handleInterestSelect,  currentPage ,  setCurrentPage , selectedOption , setSelectedOption }) {
     return (
-        <div className="bg-white p-4">
-          <h2 className="text-lg font-semibold mb-4">Which are you most interested in?</h2>
-          <p className="text-sm text-gray-600 mb-6">
+        <div className="bg-white p-4 flex flex-col justify-center items-center h-screen ">
+          <h2 className="text-3xl font-semibold mb-4">Which are you most interested in?</h2>
+          <p className="text-base text-gray-600 mb-6">
             Choose just one. This will help us get you started (but won't limit your experience).
           </p>
           <div className="grid grid-cols-1 gap-4">

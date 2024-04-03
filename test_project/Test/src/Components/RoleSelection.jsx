@@ -9,8 +9,8 @@ import { FaEllipsisH } from 'react-icons/fa';
 function RoleSelection({ handleRoleSelect , currentPage ,  setCurrentPage , selectedOption  , setSelectedOption}) {
     return (
         <div className="bg-white p-4 flex flex-col justify-center items-center h-screen" >
-          <h2 className="text-lg font-semibold mb-4">Which describes you best?</h2>
-          <p className="text-sm text-gray-600 mb-6">This will help us personalize your experience.</p>
+          <h2 className="text-3xl font-semibold mb-4">Which describes you best?</h2>
+          <p className="text-base text-gray-600 mb-6">This will help us personalize your experience.</p>
           <div className=" flex flex-col gap-2 ">
             <button
               onClick={() => handleRoleSelect('student')}
