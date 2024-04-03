@@ -10,22 +10,22 @@ function MathLevelSelection({handleMathLevelSelect , selectedOption , setSelecte
           </p>
         </div>
         <div className="flex gap-4 mb-8" >
-          <button className="bg-white rounded-md border border-gray-300 flex flex-col items-center p-4 hover:bg-gray-100 transition-colors duration-300" onClick={() => handleMathLevelSelect('arithmetic')} >
+          <button className={`bg-white rounded-md border border-gray-300 flex flex-col items-center p-4 hover:bg-gray-100 transition-colors duration-300 ${selectedOption === 'arithmetic' ? 'border-gray-500' : ''}`} onClick={() => handleMathLevelSelect('arithmetic')} >
             <img src="https://ds055uzetaobb.cloudfront.net/answer-images/arithmetic-pC3bWR.png" className="w-32" alt="arithmetic" />
             <span className="text-sm font-semibold mb-2 text-gray-600">Arithmetic</span>
-            <span className="text-base text-gray-500">Introductory</span>
+            <span className="text-base text-gray-500 ">Introductory</span>
           </button>
-          <button className="bg-white rounded-md border border-gray-300 flex flex-col items-center p-4 hover:bg-gray-100 transition-colors duration-300" onClick={() => handleMathLevelSelect('algebra')} >
+          <button className={`bg-white rounded-md border border-gray-300 flex flex-col items-center p-4 hover:bg-gray-100 transition-colors duration-300 ${selectedOption === 'algebra' ? 'border-gray-500' : ''}`} onClick={() => handleMathLevelSelect('algebra')} >
             <img src="https://assets-modified.embeddables.com/UkI2pO4KD0xXQLHkN1GG%2Fnumber_08117739254383571.png" className="w-32" alt="algebra" />
             <span className="text-sm font-semibold mb-2 text-gray-600">Basic Algebra</span>
             <span className="text-base text-gray-500">Foundational</span>
           </button>
-          <button className="bg-white rounded-md border border-gray-300 flex flex-col items-center p-4 hover:bg-gray-100 transition-colors duration-300" onClick={() => handleMathLevelSelect('intermediate')} >
+          <button className={`bg-white rounded-md border border-gray-300 flex flex-col items-center p-4 hover:bg-gray-100 transition-colors duration-300 ${selectedOption === 'intermediate' ? 'border-gray-500' : ''}`} onClick={() => handleMathLevelSelect('intermediate')} >
             <img src="https://ds055uzetaobb.cloudfront.net/answer-images/intermediate-algebra-HlLTYk.png" className="w-32" alt="intermediate" />
             <span className="text-sm font-semibold mb-2 text-gray-600">Intermediate Algebra</span>
             <span className="text-base text-gray-500">Intermediate</span>
           </button>
-          <button className="bg-white rounded-md border border-gray-300 flex flex-col items-center p-4 hover:bg-gray-100 transition-colors duration-300" onClick={() => handleMathLevelSelect('calculus')} >
+          <button className={`bg-white rounded-md border border-gray-300 flex flex-col items-center p-4 hover:bg-gray-100 transition-colors duration-300 ${selectedOption === 'calculus' ? 'border-gray-500' : ''}`} onClick={() => handleMathLevelSelect('calculus')} >
             <img src="https://ds055uzetaobb.cloudfront.net/answer-images/Frame_2-qvqAR5.png" className="w-32" alt="calculus" />
             <span className="text-sm font-semibold mb-2 text-gray-600">Calculus</span>
             <span className="text-base text-gray-500">Advanced</span>
