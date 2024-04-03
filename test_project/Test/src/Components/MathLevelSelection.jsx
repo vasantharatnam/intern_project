@@ -1,7 +1,8 @@
 import React from 'react'
 
 function MathLevelSelection({handleMathLevelSelect , selectedOption , setSelectedOption,   setCurrentPage  , currentPage}) {
-    return (
+  console.log(currentPage)  
+  return (
         <div className="flex flex-col items-center justify-center h-screen bg-white">
         <div className="mb-8">
           <h2 className="text-3xl font-semibold mb-4 text-center">What is your math comfort level?</h2>

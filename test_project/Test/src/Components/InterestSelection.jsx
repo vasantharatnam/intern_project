@@ -7,7 +7,8 @@ import { FaLightbulb } from 'react-icons/fa';
 
 
 function InterestSelection({handleInterestSelect,  currentPage ,  setCurrentPage , selectedOption , setSelectedOption }) {
-    return (
+  console.log(currentPage)  
+  return (
         <div className="bg-white p-4 flex flex-col justify-center items-center h-screen ">
           <h2 className="text-3xl font-semibold mb-4">Which are you most interested in?</h2>
           <p className="text-base text-gray-600 mb-6">

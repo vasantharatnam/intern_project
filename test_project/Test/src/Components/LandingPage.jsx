@@ -1,7 +1,8 @@
 import React from 'react'
 
 function LandingPage({setCurrentPage , currentPage }) {
-    return (
+  console.log(currentPage) 
+  return (
         <>
     <div className="relative h-screen w-screen bg-white">
   <div className="absolute top-0 left-0 right-0 h-8 bg-white-500"></div>

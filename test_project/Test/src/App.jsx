@@ -60,14 +60,14 @@ const App = () => {
     {currentPage <= 5 && <ProgressBar currentPage={currentPage} />}
     </div>
     </div>
-    {/* {renderPage()} */}
-    {currentPage === 1 && <RoleSelection handleRoleSelect={handleRoleSelect} setCurrentPage = {setCurrentPage} currentPage= {currentPage}  selectedOption={selectedOption} setSelectedOption = {setSelectedOption} />}
+    {renderPage()}
+    {/* {currentPage === 1 && <RoleSelection handleRoleSelect={handleRoleSelect} setCurrentPage = {setCurrentPage} currentPage= {currentPage}  selectedOption={selectedOption} setSelectedOption = {setSelectedOption} />}
     {currentPage === 2 &&  <InterestSelection handleInterestSelect={handleInterestSelect} setCurrentPage = {setCurrentPage} currentPage= {currentPage}  selectedOption={selectedOption} setSelectedOption = {setSelectedOption} />}
     {currentPage === 3 && <LandingPage setCurrentPage={setCurrentPage} currentPage= {currentPage}  />};
     {currentPage === 4 && <MathLevelSelection handleMathLevelSelect={handleMathLevelSelect} setCurrentPage={setCurrentPage} currentPage = {currentPage}  selectedOption={selectedOption} setSelectedOption = {setSelectedOption} />}
     {currentPage === 5 && <CompletionPage  setCurrentPage={setCurrentPage} currentPage = {currentPage} />}
     {currentPage === 6 && <FinalPage setCurrentPage={setCurrentPage} currentPage = {currentPage}/>}
-    {currentPage === 7 && <LearningPath />}
+    {currentPage === 7 && <LearningPath />} */}
     </div>
   );
 };

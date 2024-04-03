@@ -4,6 +4,7 @@ import image from "../assets/spinner.gif"
 
 
 function FinalPage({setCurrentPage , currentPage}) {
+  console.log(currentPage)
 
     useEffect(() => {
         // print(setCurrentPage,currentPage)

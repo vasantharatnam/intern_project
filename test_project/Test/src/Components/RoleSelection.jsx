@@ -7,6 +7,7 @@ import { FaBriefcase } from 'react-icons/fa';
 import { FaEllipsisH } from 'react-icons/fa';
 
 function RoleSelection({ handleRoleSelect , currentPage ,  setCurrentPage , selectedOption  , setSelectedOption}) {
+  console.log(currentPage)
     return (
         <div className="bg-white p-4 flex flex-col justify-center items-center h-screen" >
           <h2 className="text-3xl font-semibold mb-4">Which describes you best?</h2>
