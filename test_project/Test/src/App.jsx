@@ -57,7 +57,7 @@ const App = () => {
     <div>
       <div className='mt-5 flex justify-center'>
      <div className='w-80'>
-    {currentPage <= 5 && <ProgressBar currentPage={currentPage} />}
+    {currentPage <= 5 && <ProgressBar currentPage={currentPage} setCurrentPage={setCurrentPage}   setSelectedOption = {setSelectedOption}/>}
     </div>
     </div>
     {/* {renderPage()} */}

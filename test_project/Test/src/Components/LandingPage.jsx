@@ -27,7 +27,7 @@ function LandingPage({setCurrentPage , currentPage }) {
     <button
       className="bg-gray-800 text-white px-4 py-2 rounded-md"
       onClick={() => setCurrentPage(currentPage + 1)}
-    >
+   style = {{marginBottom:'50px'}} >
       Continue
     </button>
   </div>

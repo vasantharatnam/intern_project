@@ -19,35 +19,35 @@ function InterestSelection({handleInterestSelect,  currentPage ,  setCurrentPage
               onClick={() => handleInterestSelect('career')}
               className={`bg-gray-100 rounded-md p-4 flex items-center hover:bg-gray-200 transition-colors duration-300 ${selectedOption === 'career' ? 'bg-gray-800 text-white' : 'bg-gray-100 text-gray-600'}`}
             >
-               <FaBookOpen size = {30}/>
+               <FaBookOpen size = {30} style={{ marginRight: '8px' }}/>
               <span>Learning specific skills to advance my career</span>
             </button>
             <button
               onClick={() => handleInterestSelect('topic')}
               className={`bg-gray-100 rounded-md p-4 flex items-center hover:bg-gray-200 transition-colors duration-300 ${selectedOption === 'topic' ? 'bg-gray-800 text-white' : 'bg-gray-100 text-gray-600'}`}
             >
-              <FaSearch size = {30}/>
+              <FaSearch size = {30} style={{ marginRight: '8px' }}/>
               <span>Exploring new topics I'm interested in</span>
             </button>
             <button
               onClick={() => handleInterestSelect('math')}
               className={`bg-gray-100 rounded-md p-4 flex items-center hover:bg-gray-200 transition-colors duration-300 ${selectedOption === 'math' ? 'bg-gray-800 text-white' : 'bg-gray-100 text-gray-600'}`}
             >
-               <FaCalculator size = {30}/>
+               <FaCalculator size = {30} style={{ marginRight: '8px' }}/>
               <span>Refreshing my math foundations</span>
             </button>
             <button
               onClick={() => handleInterestSelect('brain')}
               className={`bg-gray-100 rounded-md p-4 flex items-center hover:bg-gray-200 transition-colors duration-300 ${selectedOption === 'brain' ? 'bg-gray-800 text-white' : 'bg-gray-100 text-gray-600'}`}
             >
-               <FaBrain size = {30}/>
+               <FaBrain size = {30} style={{ marginRight: '8px' }}/>
               <span>Exercising my brain to stay sharp</span>
             </button>
             <button
               onClick={() => handleInterestSelect('else')}
               className={`bg-gray-100 rounded-md p-4 flex items-center hover:bg-gray-200 transition-colors duration-300 ${selectedOption === 'else' ? 'bg-gray-800 text-white' : 'bg-gray-100 text-gray-600'}`}
             >
-              <FaLightbulb size = {30}/>
+              <FaLightbulb size = {30} style={{ marginRight: '8px' }}/>
               <span>Something else</span>
             </button>
           </div>

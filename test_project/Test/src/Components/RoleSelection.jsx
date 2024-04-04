@@ -17,42 +17,42 @@ function RoleSelection({ handleRoleSelect , currentPage ,  setCurrentPage , sele
               onClick={() => handleRoleSelect('student')}
               className={`bg-gray-100 rounded-md p-4 flex items-center hover:bg-gray-200 transition-colors duration-300 ${selectedOption === 'student' ? 'bg-gray-800 text-white' : 'bg-gray-100 text-gray-600'} border-solid border-2 border-transparent focus:outline-none focus:border-gray-500`}
             >
-              <FaUserGraduate  size = {30}/>
+              <FaUserGraduate  size = {30} style={{ marginRight: '8px' }}/>
               <span>Student or soon to be enrolled</span>
             </button>
             <button
               onClick={() => handleRoleSelect('professional')}
               className={`bg-gray-100 rounded-md p-4 flex items-center hover:bg-gray-200 transition-colors duration-300 ${selectedOption === 'professional' ? 'bg-gray-800 text-white' : 'bg-gray-100 text-gray-600'}`}
             >
-              <FaBriefcase size={30} />
+              <FaBriefcase size={30}  style={{ marginRight: '8px' }}/>
               <span>Professional pursuing a career</span>
             </button>
             <button
               onClick={() => handleRoleSelect('parent')}
               className={`bg-gray-100 rounded-md p-4 flex items-center hover:bg-gray-200 transition-colors duration-300 ${selectedOption === 'parent' ? 'bg-gray-800 text-white' : 'bg-gray-100 text-gray-600'}`}
             >
-              <FaUserAlt size={30} />
+              <FaUserAlt size={30} style={{ marginRight: '8px' }} />
               <span>Parent of a school-age child</span>
             </button>
             <button
               onClick={() => handleRoleSelect('learner')}
               className={`bg-gray-100 rounded-md p-4 flex items-center hover:bg-gray-200 transition-colors duration-300 ${selectedOption === 'learner' ? 'bg-gray-800 text-white' : 'bg-gray-100 text-gray-600'}`}
             >
-             <FaGraduationCap size={30} />
+             <FaGraduationCap size={30} style={{ marginRight: '8px' }} />
               <span>Lifelong learner</span>
             </button>
             <button
               onClick={() => handleRoleSelect('teacher')}
               className={`bg-gray-100 rounded-md p-4 flex items-center hover:bg-gray-200 transition-colors duration-300 ${selectedOption === 'teacher' ? 'bg-gray-800 text-white' : 'bg-gray-100 text-gray-600'}`}
             >
-              <FaChalkboardTeacher size={30} />
+              <FaChalkboardTeacher size={30} style={{ marginRight: '8px' }} />
               <span>Teacher</span>
             </button>
             <button
               onClick={() => handleRoleSelect('other')}
               className={`bg-gray-100 rounded-md p-4 flex items-center hover:bg-gray-200 transition-colors duration-300 ${selectedOption === 'other' ? 'bg-gray-800 text-white' : 'bg-gray-100 text-gray-600'}`}
             >
-              <FaEllipsisH size={30} />
+              <FaEllipsisH size={30} style={{ marginRight: '8px' }} />
               <span>Other</span>
             </button>
 
