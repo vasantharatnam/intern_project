@@ -49,7 +49,7 @@ const App = () => {
       case 6:
         return <FinalPage setCurrentPage={setCurrentPage} currentPage = {currentPage}/>;
       case 7:
-        return <LearningPath />
+        return <LearningPath />;
       }
   };
 
@@ -63,7 +63,7 @@ const App = () => {
     {/* {renderPage()} */}
     {currentPage === 1 && <RoleSelection handleRoleSelect={handleRoleSelect} setCurrentPage = {setCurrentPage} currentPage= {currentPage}  selectedOption={selectedOption} setSelectedOption = {setSelectedOption} />}
     {currentPage === 2 &&  <InterestSelection handleInterestSelect={handleInterestSelect} setCurrentPage = {setCurrentPage} currentPage= {currentPage}  selectedOption={selectedOption} setSelectedOption = {setSelectedOption} />}
-    {currentPage === 3 && <LandingPage setCurrentPage={setCurrentPage} currentPage= {currentPage}  />};
+    {currentPage === 3 && <LandingPage setCurrentPage={setCurrentPage} currentPage= {currentPage}  />}
     {currentPage === 4 && <MathLevelSelection handleMathLevelSelect={handleMathLevelSelect} setCurrentPage={setCurrentPage} currentPage = {currentPage}  selectedOption={selectedOption} setSelectedOption = {setSelectedOption} />}
     {currentPage === 5 && <CompletionPage  setCurrentPage={setCurrentPage} currentPage = {currentPage} />}
     {currentPage === 6 && <FinalPage setCurrentPage={setCurrentPage} currentPage = {currentPage}/>}
