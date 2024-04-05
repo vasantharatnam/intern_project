@@ -24,7 +24,7 @@ function FinalPage({setCurrentPage , currentPage}) {
           </div>
         </div>
       </div>
-      <p className="mt-8 text-lg text-gray-800 text-center">
+      <p className="mt-8 text-lg font-bold text-gray-800 text-center">
         Finding learning path recommendations for you based on your responses
       </p>
     </div>
